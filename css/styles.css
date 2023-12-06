@@ -708,13 +708,16 @@ address {
 }
 .modal-form-window-checkbox-icon {
 }
-.modal-form-window-checkbox-in:checked .modal-form-window-checkbox-box {
+.modal-form-window-checkbox-in:checked
+  + .modal-form-window-checkbox-box
+  > .modal-form-window-checkbox-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
 .modal-form-window-checkbox-link {
   color: #4d5ae5;
+  text-decoration: underline;
 }
 .modal-form-btn {
   display: block;
@@ -730,5 +733,7 @@ address {
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
+  margin: 0 auto;
 }
 /*! ============================================================ */
