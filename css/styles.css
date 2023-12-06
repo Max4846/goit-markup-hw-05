@@ -516,7 +516,6 @@ address {
   font-weight: 400;
   line-height: 2;
   letter-spacing: 0.04em;
-  margin-right: 24px;
   padding: 8px 16px;
   background-color: transparent;
   border-radius: 4px;
@@ -705,6 +704,7 @@ address {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 .modal-form-window-checkbox-icon {
 }
